@@ -1,5 +1,5 @@
 #################################
-# Your name: Ofek Zohar 312490402
+# Your name: Ofek Zohar
 #################################
 
 import numpy as np
@@ -206,7 +206,6 @@ def plot_ws(ws):
     plt.xlabel("Iteration (t)")
     plt.xscale('log')
     plt.ylabel("Norm(w_t)")
-    plt.savefig(f"IntroML3.q6.norm.pdf")
     plt.show()
 
 
